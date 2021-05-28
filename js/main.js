@@ -106,8 +106,6 @@ $(function() {
 				slidePiece(this, select_index, blank_index);
 				break;
 
-			case -5 :  // debug
-				pzFinish();
 			default :
 				// blankピースと隣接していなければ何もしない
 				break;
