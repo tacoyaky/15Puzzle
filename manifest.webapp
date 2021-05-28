@@ -1,0 +1,14 @@
+{
+  "name": "15pz",
+  "version": "1.0.0",
+  "description": "15 sliding puzzle app",
+  "launch_path": "/index.html",
+  "icons": {
+    "128": "/images/pz-img/icon-128.png",
+    "512": "/images/pz-img/icon-512.png"
+  },
+  "developer": {
+    "name": "tacoyaky"
+  },
+  "default_locale": "en"
+}

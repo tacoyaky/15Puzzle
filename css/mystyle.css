@@ -1,0 +1,27 @@
+div#id_head {
+	background-color: #38CB7D;
+	color: #FFFFFF;
+}
+
+div#id_outerframe {
+	/* 左右中央に配置 */
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+div#id_con {
+	position: relative;
+	padding: 0px;
+}
+
+.piece {
+	background-image: url('../images/pz-img/image.png');			
+	position: absolute;
+}
+
+.score {
+	margin-left: auto;
+	text-align: right;
+	padding: 0px;
+}

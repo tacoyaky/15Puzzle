@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>15 Puzzle</title>
+	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="css/mystyle.css">
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+	<div data-role="page" id="page">
+		
+		<div data-role="header" id="id_head">
+			<h1>15 Puzzle</h1>
+			<a href="#" data-icon="refresh" data-iconpos="notext" class="ui-btn-right" id="id_refresh"></a>
+		</div>
+		<div id="id_outerframe">
+			<div data-role="content" id="id_con"></div>
+
+			<table class="score" id="id_score">
+				<tr>
+					<th>Touch :</th>
+					<td><div id="id_slidecnt">0</div></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th>Time :</th>
+					<td><div id="id_playtime">0</div></td>
+					<td>sec</td>
+				</tr>
+				<tr>
+					<th></th>
+				</tr>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
